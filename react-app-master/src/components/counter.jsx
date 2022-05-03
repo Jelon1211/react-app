@@ -9,11 +9,20 @@ class Counter extends Component {
     return (
       <React.Fragment>
         <span className={this.getBadgeClasses()}>{this.formatCount()}</span>
-        <button className="btn btn-secondary btn-sm">Increment</button>
+        <button
+          onClick={this.handleIncrement}
+          className="btn btn-secondary btn-sm"
+        >
+          Increment
+        </button>
         {this.renderTags()}
       </React.Fragment>
     );
   }
+
+  handleIncrement = () => {
+    console.log("clicked");
+  };
 
   renderTags() {
     if (this.state.tags.length === 0) return <p>There are no tags</p>;
