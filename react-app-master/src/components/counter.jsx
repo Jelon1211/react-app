@@ -39,7 +39,7 @@ class Counter extends Component {
       </ul>
     );
   }
-
+  // sprobowac samemu dodać nowe elementy
   getBadgeClasses() {
     let classes = "badge m-2 bg-";
     classes += this.props.counter.value === 0 ? "warning" : "primary";
