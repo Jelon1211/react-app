@@ -29,7 +29,7 @@ class Counters extends Component {
       </div>
     );
   }
-
+  // Do ogarnięcia
   handleInrement = (counter) => {
     const counters = [...this.state.counters];
     const index = counters.indexOf(counter);
