@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 class Counter extends Component {
+  // jak to zastapic
   state = {
     tags: ["tag1", "tag2", "tag3"],
   };
