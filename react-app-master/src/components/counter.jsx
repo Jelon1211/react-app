@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 class Counter extends Component {
-  // jak to zastapic
+  // dodać hooka
   state = {
     tags: ["tag1", "tag2", "tag3"],
   };
